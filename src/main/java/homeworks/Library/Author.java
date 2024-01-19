@@ -1,8 +1,8 @@
 package homeworks.Library;
 
 public class Author {
-     public String name;
-     public String email;
+     private String name;
+     private String email;
 
       public Author(String name, String email){
           this.name=name;
