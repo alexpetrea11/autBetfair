@@ -86,7 +86,7 @@ class CalculatorTest {
     }
 
     @AfterAll
-    public static void cleanUp() {
+    public static void cleanUp1() {
         System.out.println("Clean up Testing variables");
         c = null;
     }
